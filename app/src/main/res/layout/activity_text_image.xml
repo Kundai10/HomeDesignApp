@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".TextImageActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#191919">
+
+        <ImageView
+            android:id="@+id/topImage"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:alpha="0.4"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bluetheme" />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="Text to Design"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:id="@+id/firstLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topImage"
+            android:padding="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/startDateTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/offwhite"
+                android:text="@string/free_trial_start" />
+            <TextView
+                android:id="@+id/endDateTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/offwhite"
+                android:text="@string/free_trial_end" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firstLinearLayout"
+            android:padding="16dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No picture needed. Just your words"
+                android:textColor="@color/offwhite" />
+
+            <EditText
+                android:id="@+id/etDesignPrompt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="  e.g., cheerful mordenist bedroom"
+                android:textColorHint="@color/gray"
+                android:textColor="@color/white"
+                android:background="@drawable/edit_text_border"/>
+            <TextView
+                android:id="@+id/spinnerTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Room Name:"
+                android:textColor="@color/white"
+                android:layout_marginTop="12dp"/>
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="190dp"
+                android:layout_height="48dp"
+                android:padding="8dp"
+                android:foreground="@drawable/spinner_border"
+                android:layout_marginBottom="10dp"/>
+            <ImageView
+                android:id="@+id/yourImageView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="20dp"
+                tools:src="@drawable/blurred"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:id="@+id/loadingTextView3"
+                android:layout_width="wrap_content"
+                android:text="Loading..."
+                android:textColor="@color/offwhite"
+                android:textSize="18sp"
+                android:layout_marginTop="18dp"
+                android:visibility="gone"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"/>
+            <ProgressBar
+                android:id="@+id/progressBar7"
+                android:layout_gravity="center_horizontal"
+                android:padding="14dp"
+                android:visibility="gone"
+                android:indeterminateTint="@color/offwhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

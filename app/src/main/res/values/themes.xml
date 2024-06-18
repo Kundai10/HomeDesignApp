@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="Base.Theme.HomeStyler" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/darkGray</item>
+
+    </style>
+
+    <style name="Theme.HomeStyler" parent="Base.Theme.HomeStyler" />
+
+
+</resources>

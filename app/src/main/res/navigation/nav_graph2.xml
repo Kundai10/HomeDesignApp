@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/snapAndDesignFragment">
+
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.example.homestyler.AboutUsFragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.homestyler.HistoryFragment"
+        android:label="Your Activity"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/snapAndDesignFragment"
+        android:name="com.example.homestyler.SnapAndDesignFragment"
+        android:label="de.sign"
+        tools:layout="@layout/fragment_snap_and_design"/>
+
+</navigation>

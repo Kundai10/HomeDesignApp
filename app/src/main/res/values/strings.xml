@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">de.sign</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Create Account</string>
+    <string name="email_hint"> Email</string>
+    <string name="password_hint"> Password</string>
+    <string name="app_slogan">Design Made Easy: Snap, Prompt, Transform</string>
+    <string name="nickname_hint"> First Name</string>
+    <string name="confirm_password"> Confirm Password</string>
+    <string name="contentDescription">Content Description for View</string>
+    <string name="welcomeMessage">Hello, %s  \n\ I\'m your interior design assistant</string>
+    <string name="uploadImage">Upload Image</string>
+    <string name="roomColor">What\'s your desired Room Colour Scheme?</string>
+    <string name="texttoimagedesc">Transform your words into stunning AI Home designs with our Text to Image feature</string>
+    <string name="specificitemreplace">Easily replace furniture in your design. Change colour,replace or remove any item</string>
+    <string name="transformyard">Not only can you design the interior. You can now design the outside of your house.</string>
+    <string name="free_trial_start">Free Trial Start: %s</string>
+    <string name="free_trial_end">Free Trial End: %s</string>
+    <string name="prompt_select_room">Select a room</string>
+    <string-array name="room_options">
+        <item>Kitchen</item>
+        <item>Bedroom</item>
+        <item>Bathroom</item>
+        <item>Living Room</item>
+        <item>Dining Room</item>
+        <item>Office</item>
+    </string-array>
+
+
+
+</resources>

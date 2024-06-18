@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "616225469647",
+    "project_id": "homestyler-30b23",
+    "storage_bucket": "homestyler-30b23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616225469647:android:3aa2684bffa4047608b3ba",
+        "android_client_info": {
+          "package_name": "com.example.homestyler"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYiuDUsMgbjTur9w-69Rs34YRiZUZTIi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
